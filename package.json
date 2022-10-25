@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "start": "gulp server",
-    "dev": "nuxt generate",
-    "build": "gulp build",
+    "dev": "gulp dev",
+    "build": "nuxt generate",
     "build-relative-path": "gulp build --relativePath",
     "deploy-init": "gulp deploy-init",
     "deploy": "gulp deploy"
